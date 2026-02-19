@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Krishna%20Hna&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Software%20Engineer%20%7C%20Systems%20Builder%20%7C%20AI%2FML%20Researcher&descAlignY=58&descSize=18&animation=fadeIn" width="100%" alt="header"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Krishna%20R&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Software%20Engineer%20%7C%20Systems%20Builder%20%7C%20AI%2FML%20Researcher&descAlignY=58&descSize=18&animation=fadeIn" width="100%" alt="header"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=7C3AED&center=true&vCenter=true&width=700&lines=Building+systems+that+scale+from+edge+to+cloud;Deep+learning+%7C+IoT+%7C+Full-Stack+%7C+Embedded+C%2B%2B;React+Native+%7C+Next.js+%7C+Python+%7C+TypeScript;Turning+real-world+problems+into+engineered+solutions)](https://git.io/typing-svg)
 
@@ -69,19 +69,37 @@ I don't build demos. I build systems — with documented architecture, modular c
 
 ---
 
-## Featured Projects
+## 🔮 Featured Projects
 
-> Ranked by technical depth, architectural complexity, and real-world impact.
+<div align="center">
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=17&pause=1200&color=FF6B9D&center=true&vCenter=true&width=650&lines=⚡+Top+Engineering+Projects;🔥+Ranked+by+Depth+%26+Real-World+Impact;🚀+Edge+%7C+Cloud+%7C+Embedded+%7C+AI%2FML;💎+Systems+Built+to+Production+Standards)](https://git.io/typing-svg)
+
+</div>
 
 ---
 
-### 🥇 1 — VITRide · Campus Edge-Transport System
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:0a0015,40:3d0070,80:7c3aed,100:b06aff&height=160&text=%F0%9F%A5%87+%231+%E2%80%94+VITRide&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=50&desc=Campus+Edge-Transport+System&descAlignY=73&descSize=18" width="88%"/>
+</div>
+
+<table>
+<tr>
+<td width="58%" valign="top">
 
 > *Offline-first campus transit with edge computing, hardware integration, cryptographic ticketing, and crypto payments*
 
-**Stack:** React Native (Expo) · Node.js Edge Server · ESP32 · Supabase · Ethereum Sepolia · WebSocket · mDNS
+**Stack:** `React Native` · `Node.js` · `ESP32` · `Supabase` · `Ethereum Sepolia` · `WebSocket` · `mDNS`
 
-**Architecture Overview:**
+🔐 SHA-256 cryptographic offline ticket validation (tamper-proof, 24h expiry)<br/>
+📡 Zero-config mDNS networking — no manual IP configuration ever<br/>
+📍 3-tier Haversine proximity alerts at 100m / 50m / 30m over WebSocket<br/>
+💎 MNEE token + UPI payments — rare Web2 + Web3 hybrid in a campus app<br/>
+🤖 ESP32 GPS firmware synchronised to edge server in real-time<br/>
+
+<details>
+<summary>🏗️ Architecture</summary>
+
 ```
 Mobile App (React Native)
     |-- mDNS Auto-Discovery --> Edge Server (Node.js on laptop)
@@ -93,24 +111,41 @@ Mobile App (React Native)
                                ESP32 (GPS module, RGB LEDs, buzzer alerts)
 ```
 
-**Why it's significant:**
-- Implements zero-config networking with mDNS (`_vitride._tcp.local`) — no manual IP configuration required
-- SHA-256 cryptographic ticket signatures allow offline validation with tamper-proof 24-hour expiry
-- Three-tier proximity alerting (100 m / 50 m / 30 m circles) driven by Haversine distance computation over WebSocket
-- MNEE token payment on Sepolia testnet alongside UPI integration — rare combination of Web2 + Web3 payments in a campus app
-- Hardware-software co-design: ESP32 firmware synchronizes GPS coordinates to edge server, driving real-time proximity alerts
+</details>
 
-[![Repo](https://img.shields.io/badge/GitHub-VITRide-7C3AED?style=flat-square&logo=github)](https://github.com/kris07hna/VITRide)
+</td>
+<td width="42%" valign="top" align="center">
+
+<a href="https://github.com/kris07hna/VITRide">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=kris07hna&repo=VITRide&theme=radical&hide_border=true&bg_color=0a0015&title_color=b06aff&icon_color=FF6B9D&text_color=e2d9f3" width="100%"/>
+</a>
+
+</td>
+</tr>
+</table>
 
 ---
 
-### 🥈 2 — DeverbSamsung · Deep Learning Speech Dereverberation
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:0a0500,40:7c1d00,80:c2410c,100:fb923c&height=160&text=%F0%9F%A5%88+%232+%E2%80%94+DeverbSamsung&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=50&desc=Deep+Learning+Speech+Dereverberation&descAlignY=73&descSize=18" width="88%"/>
+</div>
+
+<table>
+<tr>
+<td width="58%" valign="top">
 
 > *State-of-the-art dereverberation system built for the Samsung PRISM competition, targeting PESQ and SDR maximization*
 
-**Stack:** Python · PyTorch · Jupyter · Signal Processing (librosa, scipy) · PESQ / SDR metrics
+**Stack:** `Python` · `PyTorch` · `Jupyter` · `librosa` · `scipy` · `PESQ / SDR metrics`
 
-**Architecture Overview:**
+🎯 Targets real competition metrics — PESQ ≥ 3.5, SDR ≥ 18 dB, not toy MSE<br/>
+🌊 Score-based diffusion modeling on speech — research-level technique<br/>
+🔬 End-to-end pipeline: raw `.wav` → STFT → DNN → enhanced waveform<br/>
+📐 Multi-scale loss (PESQ + SI-SDR + spectral convergence) for training<br/>
+
+<details>
+<summary>🏗️ Architecture</summary>
+
 ```
 Raw Reverberant Audio
     |
@@ -127,23 +162,41 @@ Deep Neural Network (U-Net / SGMSE-style)
 Enhanced Waveform --> PESQ / SDR evaluation
 ```
 
-**Why it's significant:**
-- Targets real competition metrics (PESQ >= 3.5, SDR >= 18 dB) rather than toy reconstructions
-- Score-based diffusion modeling applied to speech — research-level technique adapted for practical submission
-- End-to-end pipeline from raw `.wav` preprocessing to final metric evaluation
-- Related work: `sgmse-ultimate` explores SGMSE+ score-based generative speech enhancement
+</details>
 
-[![Repo](https://img.shields.io/badge/GitHub-DeverbSamsung-7C3AED?style=flat-square&logo=github)](https://github.com/kris07hna/DeverbSamsung)
+</td>
+<td width="42%" valign="top" align="center">
+
+<a href="https://github.com/kris07hna/DeverbSamsung">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=kris07hna&repo=DeverbSamsung&theme=radical&hide_border=true&bg_color=0a0500&title_color=fb923c&icon_color=FF6B9D&text_color=f3e8d9" width="100%"/>
+</a>
+
+</td>
+</tr>
+</table>
 
 ---
 
-### 🥉 3 — SmartShortCircuit · IoT Electrical Anomaly Detection System
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:001a1a,40:0e7490,80:06b6d4,100:67e8f9&height=160&text=%F0%9F%A5%89+%233+%E2%80%94+SmartShortCircuit&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=50&desc=IoT+Electrical+Anomaly+Detection&descAlignY=73&descSize=18" width="88%"/>
+</div>
 
-> *Real-time short-circuit and overcurrent detection system bridging ESP32 hardware, INA219 precision sensing, and a Next.js dashboard*
+<table>
+<tr>
+<td width="58%" valign="top">
 
-**Stack:** C++ · PlatformIO · INA219 · ESP32 · Next.js · Firebase · WebSocket · Vercel
+> *Real-time short-circuit and overcurrent detection bridging ESP32 hardware, INA219 precision sensing, and a Next.js dashboard*
 
-**Architecture Overview:**
+**Stack:** `C++` · `PlatformIO` · `INA219` · `ESP32` · `Next.js` · `Firebase` · `WebSocket` · `Vercel`
+
+⚡ Sub-5 ms hardware interrupt response (design target) for fault isolation<br/>
+🔬 INA219 precision sensing at 0.1 mA resolution, configurable thresholds<br/>
+📊 Live current/voltage waveforms streamed to Next.js dashboard<br/>
+🔁 Full stack: C++ firmware → Firebase RTDB → Vercel web UI<br/>
+
+<details>
+<summary>🏗️ Architecture</summary>
+
 ```
 INA219 Current/Voltage Sensor
     | I2C (400 kHz)
@@ -154,32 +207,47 @@ ESP32 Firmware (C++)
   `-- Hardware relay actuation (load isolation)
     |
     v
-Firebase Realtime Database
-    |
-    v
-Next.js Dashboard (Vercel)
-  |-- Live current/voltage waveforms
-  |-- Anomaly event log
-  `-- Alert configuration UI
+Firebase Realtime Database --> Next.js Dashboard (Vercel)
+                                 |-- Live waveforms
+                                 |-- Anomaly event log
+                                 `-- Alert config UI
 ```
 
-**Why it's significant:**
-- Sub-5 ms hardware interrupt response time is the design target for short-circuit isolation — measured on ESP32 at 240 MHz with relay actuation; actual timing varies by hardware revision
-- INA219 precision current sensing (0.1 mA resolution) with software-configurable thresholds
-- Full stack from C++ firmware to cloud telemetry to web dashboard, all in one coherent system
-- PlatformIO build system enables reproducible firmware builds across teams
+</details>
 
-[![Repo](https://img.shields.io/badge/GitHub-SmartShortCircuit-7C3AED?style=flat-square&logo=github)](https://github.com/kris07hna/SmartShortCircuit)
+</td>
+<td width="42%" valign="top" align="center">
+
+<a href="https://github.com/kris07hna/SmartShortCircuit">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=kris07hna&repo=SmartShortCircuit&theme=radical&hide_border=true&bg_color=001a1a&title_color=67e8f9&icon_color=06b6d4&text_color=d9f3f3" width="100%"/>
+</a>
+
+</td>
+</tr>
+</table>
 
 ---
 
-### 4 — PersonaFlux · AI-Powered NPC Dialogue System
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:1a001a,40:86198f,80:d946ef,100:f0abfc&height=160&text=%234+%E2%80%94+PersonaFlux&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=50&desc=AI-Powered+NPC+Dialogue+System&descAlignY=73&descSize=18" width="88%"/>
+</div>
+
+<table>
+<tr>
+<td width="58%" valign="top">
 
 > *Stateful, persona-consistent AI NPC engine with long-term memory, emotion modeling, and a real-time game interface*
 
-**Stack:** TypeScript · Next.js · Supabase (pgvector) · LLM APIs · WebSocket · Tailwind CSS
+**Stack:** `TypeScript` · `Next.js` · `Supabase (pgvector)` · `LLM APIs` · `WebSocket` · `Tailwind CSS`
 
-**Architecture Overview:**
+🧠 Vector-indexed long-term NPC memory via pgvector on Supabase<br/>
+🎭 Emotion state machine — NPCs evolve based on player interactions<br/>
+🔌 Hot-swappable character profiles via separated persona/inference layers<br/>
+🎮 Designed for game engine integration with documented API contracts<br/>
+
+<details>
+<summary>🏗️ Architecture</summary>
+
 ```
 Game Client (React / Next.js)
     |-- REST / WebSocket --> Persona Engine API
@@ -195,38 +263,71 @@ Game Client (React / Next.js)
                                       `-- Safety filters
 ```
 
-**Why it's significant:**
-- Maintains NPC persona consistency across sessions using vector-indexed long-term memory (pgvector on Supabase)
-- Emotion state machine influences dialogue generation — NPCs evolve emotionally based on player interactions
-- Designed for game engine integration with documented API contracts
-- Separates persona configuration from inference logic, enabling hot-swappable character profiles
+</details>
 
-[![Repo](https://img.shields.io/badge/GitHub-PersonaFlux--AI--Powered--NPC-7C3AED?style=flat-square&logo=github)](https://github.com/kris07hna/PersonaFlux-AI-Powered-NPC)
+</td>
+<td width="42%" valign="top" align="center">
+
+<a href="https://github.com/kris07hna/PersonaFlux-AI-Powered-NPC">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=kris07hna&repo=PersonaFlux-AI-Powered-NPC&theme=radical&hide_border=true&bg_color=1a001a&title_color=f0abfc&icon_color=d946ef&text_color=f3d9f3" width="100%"/>
+</a>
+
+</td>
+</tr>
+</table>
 
 ---
 
-### 5 — NEXCare · Healthcare Platform
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:000d1a,40:1d4ed8,80:3b82f6,100:93c5fd&height=160&text=%235+%E2%80%94+NEXCare&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=50&desc=Healthcare+Platform&descAlignY=73&descSize=18" width="88%"/>
+</div>
+
+<table>
+<tr>
+<td width="58%" valign="top">
 
 > *Full-stack TypeScript healthcare application with appointment management, patient records, and provider workflows*
 
-**Stack:** TypeScript · React Native / Next.js · Supabase · Node.js
+**Stack:** `TypeScript` · `React Native` · `Next.js` · `Supabase` · `Node.js`
 
-**Why it's significant:**
-- Domain: healthcare requires higher data integrity and security standards than general consumer apps
-- Multi-role architecture (patient, provider, admin) with row-level security at the database layer
-- Demonstrates applied knowledge of privacy-conscious design patterns in a production TypeScript stack
+🏥 Healthcare-grade data integrity — higher standards than consumer apps<br/>
+👥 Multi-role architecture: patient / provider / admin<br/>
+🔒 Row-level security at the database layer — no app-layer workarounds<br/>
+🛡️ Privacy-conscious design patterns throughout the production stack<br/>
 
-[![Repo](https://img.shields.io/badge/GitHub-NEXCare-7C3AED?style=flat-square&logo=github)](https://github.com/kris07hna/NEXCare)
+</td>
+<td width="42%" valign="top" align="center">
+
+<a href="https://github.com/kris07hna/NEXCare">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=kris07hna&repo=NEXCare&theme=radical&hide_border=true&bg_color=000d1a&title_color=93c5fd&icon_color=3b82f6&text_color=d9e8f3" width="100%"/>
+</a>
+
+</td>
+</tr>
+</table>
 
 ---
 
-### 6 — DiabeticsAnalyst · Clinical ML Inference Pipeline
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:001a08,40:065f46,80:10b981,100:6ee7b7&height=160&text=%236+%E2%80%94+DiabeticsAnalyst&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=50&desc=Clinical+ML+Inference+Pipeline&descAlignY=73&descSize=18" width="88%"/>
+</div>
+
+<table>
+<tr>
+<td width="58%" valign="top">
 
 > *End-to-end machine learning pipeline for Type 2 diabetes risk stratification with lifestyle factor analysis*
 
-**Stack:** Python · scikit-learn · pandas · Flask · HTML/CSS · Render
+**Stack:** `Python` · `scikit-learn` · `pandas` · `Flask` · `HTML/CSS` · `Render`
 
-**Architecture Overview:**
+🔍 SHAP explainability — interpretable outputs, a clinical requirement<br/>
+🚀 Deployed on Render as a REST API, not just a notebook<br/>
+🎯 Ensemble classifier (Random Forest + Gradient Boosting) with calibration<br/>
+📈 Multiple progressive iterations showing engineering refinement<br/>
+
+<details>
+<summary>🏗️ Architecture</summary>
+
 ```
 Raw Patient Data (CSV / API input)
     |
@@ -245,12 +346,18 @@ Ensemble Classifier (Random Forest + Gradient Boosting)
 Flask REST API --> Web UI (deployed on Render)
 ```
 
-**Why it's significant:**
-- SHAP explainability — model outputs are interpretable, which is a clinical requirement
-- Deployed on Render with a clean REST interface, not just a notebook
-- Multiple iterations show progressive engineering refinement, not one-shot work
+</details>
 
-[![Repo](https://img.shields.io/badge/GitHub-DiabeticsAnalyst-7C3AED?style=flat-square&logo=github)](https://github.com/kris07hna/DiabeticsAnalyst)
+</td>
+<td width="42%" valign="top" align="center">
+
+<a href="https://github.com/kris07hna/DiabeticsAnalyst">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=kris07hna&repo=DiabeticsAnalyst&theme=radical&hide_border=true&bg_color=001a08&title_color=6ee7b7&icon_color=10b981&text_color=d9f3e8" width="100%"/>
+</a>
+
+</td>
+</tr>
+</table>
 
 ---
 
