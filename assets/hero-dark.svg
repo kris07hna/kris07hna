@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Krishna R — AI, embedded systems and software engineering</title>
+<desc id="desc">Animated technical header with interconnected circuits, a glowing processor, and a clear professional introduction.</desc>
+<defs>
+  <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#080d1e"/><stop offset="1" stop-color="#151334"/></linearGradient>
+  <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#25e3f5"/><stop offset=".53" stop-color="#ad83ff"/><stop offset="1" stop-color="#25e3f5"/></linearGradient>
+  <linearGradient id="chipfill" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#082c42"/><stop offset="1" stop-color="#121e3b"/></linearGradient>
+  <radialGradient id="halo"><stop offset="0" stop-color="#ad83ff" stop-opacity=".22"/><stop offset="1" stop-color="#ad83ff" stop-opacity="0"/></radialGradient>
+  <filter id="softglow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="8"/></filter>
+</defs>
+<rect width="1200" height="360" rx="22" fill="url(#background)"/>
+<g stroke="#233455" stroke-width="1" opacity=".22"><path d="M0 0 V360" /><path d="M120 0 V360" /><path d="M240 0 V360" /><path d="M360 0 V360" /><path d="M480 0 V360" /><path d="M600 0 V360" /><path d="M720 0 V360" /><path d="M840 0 V360" /><path d="M960 0 V360" /><path d="M1080 0 V360" /><path d="M1200 0 V360" /><path d="M0 0 H1200" /><path d="M0 60 H1200" /><path d="M0 120 H1200" /><path d="M0 180 H1200" /><path d="M0 240 H1200" /><path d="M0 300 H1200" /><path d="M0 360 H1200" /></g>
+<rect x="1.5" y="1.5" width="1197" height="357" rx="21" fill="none" stroke="#29365e" stroke-width="3"/>
+<path d="M36 28 H1164" stroke="url(#beam)" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+<circle cx="958" cy="173" r="192" fill="url(#halo)"><animate attributeName="opacity" values=".65;1;.65" dur="6s" repeatCount="indefinite"/></circle>
+<g font-family="Arial, Helvetica, sans-serif">
+  <text x="70" y="85" font-size="18" font-weight="700" letter-spacing="5" fill="#25e3f5">SYSTEMS  /  INTELLIGENCE  /  HARDWARE</text>
+  <text x="66" y="181" font-size="86" font-weight="800" letter-spacing="1" fill="#f5f9ff">KRISHNA <tspan fill="#ad83ff">R</tspan></text>
+  <text x="70" y="227" font-size="25" font-weight="500" fill="#99a9c7">Building intelligent systems from edge to cloud</text>
+  <text x="70" y="289" font-size="17" font-weight="700" letter-spacing="3" fill="#25e3f5">AI / ML</text>
+  <text x="213" y="289" font-size="17" fill="#99a9c7">•</text>
+  <text x="245" y="289" font-size="17" font-weight="700" letter-spacing="3" fill="#ad83ff">EMBEDDED</text>
+  <text x="391" y="289" font-size="17" fill="#99a9c7">•</text>
+  <text x="423" y="289" font-size="17" font-weight="700" letter-spacing="3" fill="#25e3f5">SOFTWARE</text>
+</g>
+<!-- right-side processor artwork; core text remains readable when animation is disabled -->
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M797 110 H855 L891 146 M1040 132 H1089 L1117 104 M1061 225 H1113 L1131 249 M853 244 H801 L779 267" stroke="#25e3f5" stroke-width="2.5" opacity=".63"/>
+  <path d="M848 176 H793 L775 158 M1072 180 H1131 M961 76 V45 M961 280 V323" stroke="#ad83ff" stroke-width="2" opacity=".62"/>
+  <rect x="858" y="89" width="214" height="180" rx="20" fill="url(#chipfill)" stroke="#ad83ff" stroke-width="2"/>
+  <rect x="879" y="109" width="172" height="140" rx="14" fill="none" stroke="#25e3f5" stroke-width="2" opacity=".86"/>
+  <rect x="905" y="136" width="120" height="88" rx="12" fill="#121e3b" stroke="#ad83ff" stroke-width="1.8"/>
+  <path d="M929 165 h72 M929 181 h72 M929 197 h50" stroke="#25e3f5" stroke-width="2.2" opacity=".68"/>
+  <circle cx="1010" cy="197" r="5" fill="#ad83ff" stroke="none"><animate attributeName="r" values="4;7;4" dur="3s" repeatCount="indefinite"/></circle>
+  <circle cx="966" cy="179" r="115" stroke="#ad83ff" opacity=".15" stroke-dasharray="4 13"/>
+  <circle cx="966" cy="179" r="137" stroke="#25e3f5" opacity=".1" stroke-dasharray="2 20"/>
+</g>
+<circle cx="900" cy="88" r="3.6" fill="#25e3f5"><animate attributeName="opacity" values=".25;1;.25" dur="2.6s" begin="0s" repeatCount="indefinite" /></circle><circle cx="1040" cy="140" r="3.6" fill="#ad83ff"><animate attributeName="opacity" values=".25;1;.25" dur="3.1s" begin="0.3s" repeatCount="indefinite" /></circle><circle cx="830" cy="245" r="3.6" fill="#25e3f5"><animate attributeName="opacity" values=".25;1;.25" dur="3.6s" begin="0.6s" repeatCount="indefinite" /></circle><circle cx="1085" cy="260" r="3.6" fill="#ad83ff"><animate attributeName="opacity" values=".25;1;.25" dur="4.1s" begin="0.8999999999999999s" repeatCount="indefinite" /></circle>
+<circle r="5" fill="#25e3f5"><animateMotion dur="5.5s" repeatCount="indefinite" path="M797 110 H855 L891 146"/><animate attributeName="opacity" values=".2;1;.2" dur="5.5s" repeatCount="indefinite"/></circle>
+<circle r="4" fill="#ad83ff"><animateMotion dur="6.2s" repeatCount="indefinite" path="M1061 225 H1113 L1131 249"/><animate attributeName="opacity" values=".2;1;.2" dur="6.2s" repeatCount="indefinite"/></circle>
+<rect x="68" y="329" width="1064" height="2" rx="1" fill="#29365e"/>
+<rect x="68" y="329" width="170" height="2" rx="1" fill="url(#beam)"><animate attributeName="x" values="68;962;68" dur="9s" repeatCount="indefinite"/></rect>
+</svg>
